@@ -13,10 +13,12 @@
         <div class="envelope">
           <div class="letter">
             <div class="text">
-              <strong>DEAR NIKITHA.</strong>
+              <strong>DEAR NIHARIKA.</strong>
               <p>
-                bujji bangaram i missyou ra.nuvvu adusta nanu kuda adusta.nuvvu navvita nanu kuda navvuta ra bujji.vacha janma lo nina nato vundara please.
-                 <br />
+                bujji bangaram i missyou ra.nuvvu adusta nanu kuda adusta.nuvvu
+                navvita nanu kuda navvuta ra bujji.vacha janma lo nina nato
+                vundara please.
+                <br />
                 <br />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 I LOVE YOU❤️
@@ -30,15 +32,15 @@
     <script>
       const envelope = document.querySelector(".envelope-wrapper");
       envelope.addEventListener("click", () => {
-        let yes=envelope.classList.toggle(true)
-        const audio=new Audio("./audio/Blue-One-Love(PaglaWorld.com.cm).mp3")
-        if(yes){
+        let yes = envelope.classList.toggle(true);
+        const audio = new Audio("./audio/Blue-One-Love(PaglaWorld.com.cm).mp3");
+        if (yes) {
           envelope.classList.add("flap");
-            audio.play()
-          }else{
-            envelope.classList.remove("flap");
-            audio.pause()
-          }
+          audio.play();
+        } else {
+          envelope.classList.remove("flap");
+          audio.pause();
+        }
       });
     </script>
   </body>
