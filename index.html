@@ -31,13 +31,12 @@
       const envelope = document.querySelector(".envelope-wrapper");
       envelope.addEventListener("click", () => {
         let yes = envelope.classList.toggle(true);
-        const audio = new Audio("./audio/WhatsApp Audio 2024-06-17 at 11.22.46_89ca8fac.mp3");
         if (yes) {
+          const audio = new Audio("./audio/WhatsApp Audio 2024-06-17 at 11.22.46_89ca8fac.mp3");
           envelope.classList.add("flap");
           audio.play();
         } else {
           envelope.classList.remove("flap");
-          audio.pause();
         }
       });
     </script>
